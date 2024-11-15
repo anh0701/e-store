@@ -5,8 +5,8 @@
     - bill
     - contract
 
-- deployment:
-    - frontend: github page/
-    - backend: 
+- deployment plan:
+    - frontend: github page/vercel
+    - backend: render
     - database: supabase
   
