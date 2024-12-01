@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProductApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Swagger: http://localhost:8080/swagger-ui/index.html");
 		SpringApplication.run(ProductApplication.class, args);
 	}
 

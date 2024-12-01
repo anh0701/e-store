@@ -1,0 +1,14 @@
+services:
+  db:
+    container_name: e-store
+    image: docker.io/postgres:latest
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: 123
+    volumes:
+      - e-store:/var/lib/postgresql/data
+
+volumes:
+  e-store:
